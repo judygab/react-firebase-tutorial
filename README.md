@@ -1,10 +1,10 @@
-# ⚡ vite-react-ts-tailwind-starter
+# ⚡ react-ts-firebase-tutorial
 
-Starter using Vite + React + TypeScript + Tailwind with Firebase.
+Tutorial built using Vite + React + TypeScript + Tailwind with Firebase.
 
 ## Motivation
 
-Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS, Firebase.
+To provide an efficient and a quick way to understand how to implement CRUD functionality in the new version of Firebase (v9). Paired with ReactJs and TS, Firebase is a great tool for a quick prototyping or for someone learning full stack development.
 
 This starter uses following libraries:
 
@@ -17,6 +17,11 @@ This starter uses following libraries:
 - Firebase(v9, modular)
 - ESLint
 - Prettier
+
+## Proj Description
+<img width="562" alt="Screen Shot 2023-04-07 at 9 46 38 AM" src="https://user-images.githubusercontent.com/50160672/231044849-4c42bcde-5c6d-4ec2-8625-ed6faab6f517.png">
+
+This is an AI tool directory, where tools can be listed, added and edited to cover CRUD functions in Firebase, but really concepts could be applied to other setup whether it's a simple todo app or a first version of a more compilcated app, for example inventory management.
 
 ## Set up
 
@@ -80,6 +85,10 @@ It prepares components CSS classes such as 'btn'. If you provide 'btn' class to 
 
 If you don't want to use it, just remove the package and remove config in `tailwind.config.js`.
 
+### Heroicons
+
+Collection of SVG icons, by the makers of Tailwind CSS. You can browse icons in their (directory)[https://heroicons.com/]
+
 ## Firebase
 
 [Firebase](https://firebase.google.com/) is a PaaS that makes us create hi-quality apps so easy and so fast.
@@ -102,12 +111,8 @@ NOTICE: The template does not use [eslint-plugin-prettier](https://github.com/pr
 
 Please read: https://prettier.io/docs/en/integrating-with-linters.html.
 
-# ToDo
-
-- [x] install and set up [TailwindCSS/JIT](https://github.com/tailwindlabs/tailwindcss-jit) see this [PR](https://github.com/TeXmeijin/vite-react-ts-tailwind-starter/pull/1)
-
 ---
 
 ### Support me!
 
-<a href="https://www.buymeacoffee.com/meijin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/webdecoded5" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
