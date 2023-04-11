@@ -4,7 +4,6 @@ module.exports = {
     es2021: true
   },
   extends: [
-    'plugin:react/recommended',
     'standard',
     'prettier'
   ],
@@ -22,25 +21,17 @@ module.exports = {
     },
   },
   plugins: [
+    '@typescript-eslint',
     'react',
-    '@typescript-eslint'
+    'import'
   ],
   rules: {
     'react/prop-types': 'off',
-    'react/jsx-curly-brace-presence': 'error',
     // React 17
     'react/jsx-uses-react': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/self-closing-comp': [
-      'error',
-      {
-        component: true,
-        html: true,
-      },
-    ],
     'react/jsx-boolean-value': 'error',
-    'prefer-template': "error",
-    'jsx-quotes': ["error", "prefer-double"],
-    "react/jsx-tag-spacing": "error"
+    "react/jsx-tag-spacing": "error",
+    "no-unused-vars": "off"
   }
 }
